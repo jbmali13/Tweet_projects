@@ -7,6 +7,7 @@ from twitter import Twitter,OAuth, TwitterStream, TwitterHTTPError
 
 tweet_num = 1000  # Number of tweets that need to be extracted * by 100
 
+add_for_test = "im adding this as a test for git"
 ######## API URL UPDATE ############
 data = json.load(urllib3.urlopen('http://127.0.0.1:6000/'))  #Insert Topic after slash at the end of url
 
